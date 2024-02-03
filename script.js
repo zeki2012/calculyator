@@ -1,7 +1,7 @@
 let netice;
 
 topla.onclick = () => {
-    netice = `${rqm1.value} + ${rqm2.value} = ${rqm1.value + rqm2.value}`
+    netice = `${+rqm1.value} + ${+rqm2.value} = ${+rqm1.value + +rqm2.value}`
     document.getElementById('hesab').innerHTML = netice
 }
 cix.onclick = () => {
